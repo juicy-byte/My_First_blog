@@ -149,7 +149,7 @@ nav {
 }
 
 
-.bl0og-post-video {
+.blog-post-video {
     height: 300px;
     display: flex;
     /* align-items: center; */
@@ -171,7 +171,7 @@ nav {
     padding: 10px 0;
 }
 
-.clik-prev-next button {
+.click-prev-next button {
     padding: 5px 10px;
     width: 100px;
     margin: 0 5px;
@@ -188,6 +188,7 @@ nav {
 
 
 .comment-form {
+   
     /* background-color: rgb(241, 239, 239); */
     
     /* border: 2px solid yellow; */
@@ -232,6 +233,7 @@ textarea:hover{
     border: 0;
     padding: 5px;
     border: black 1px solid
+    
 }
 .name-email input:hover{
     border: 1px solid goldenrod;
