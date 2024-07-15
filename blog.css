@@ -127,8 +127,7 @@ nav {
 }
 
 .blog-story-content {
-    display: flex;
-    flex-direction: column;
+    
   
     justify-items: center;
     /* border: solid black 0.5px; */
@@ -194,11 +193,11 @@ nav {
     background-color: black;
 }
 
-.next:hover,
+  .next:hover,
 .prev:hover {
     /* background-color: black;
     color: white; */
-}
+}  
 
 
 
