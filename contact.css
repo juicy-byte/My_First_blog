@@ -1,0 +1,94 @@
+
+body{
+ margin: 0;
+ background-color: rgb(247, 247, 244);
+    /* background-image: url(./7009095.jpg); */
+}
+h4{
+    margin: 0 0 0 20px;
+    color: goldenrod;
+    text-decoration: line-through;
+    font-size: 30px;
+    
+    padding: 0;
+}
+.contact-form-container{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 20px 0;
+    background-color: rgb(244, 218, 152);
+  
+}
+.contact-form-heading{
+    display: block;
+}
+
+
+.contact-form-heading h1{
+   font-weight: bolder;
+   font-size: 30px;
+   text-align: center;
+   text-shadow: 2px 2px 4px;
+   text-decoration: underline;
+   margin-bottom: 20px;
+   padding-top: 0; 
+   color: rgb(100, 79, 27);
+}
+
+.contact-form-holder{
+    border: 1px white solid;
+    /* margin-bottom: 150px; */
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px 0px 10px 0;
+    align-items: center;
+}
+.container input[type=text], .container input[type=email]{
+    width: 100%;
+    margin: 0 0 10px 0;
+    padding: 5px;
+    background-color: rgb(241, 239, 239);
+    border: none;
+    
+}
+.container input[type=text]:hover, .container input[type=email]:hover{
+    border: solid 1px goldenrod;
+}
+.container h3{
+    margin-top: 0;
+    font-size: medium;
+    padding-bottom: 10px;
+}
+.container label{
+    font-size: 10px;
+    color: rgb(100, 79, 27);
+}
+.container button{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(100, 79, 27);
+    color: white;
+}
+.container button:hover{
+   background-color: goldenrod;
+   color: black;
+}
+::placeholder{
+    font-size: 10px;
+    color: black;
+  
+}
+ i{
+    font-size: 10px;
+}
