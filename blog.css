@@ -149,7 +149,7 @@ nav {
 }
 
 
-.blog-post-video {
+.bl0og-post-video {
     height: 300px;
     display: flex;
     /* align-items: center; */
@@ -171,7 +171,7 @@ nav {
     padding: 10px 0;
 }
 
-.click-prev-next button {
+.clik-prev-next button {
     padding: 5px 10px;
     width: 100px;
     margin: 0 5px;
@@ -220,7 +220,7 @@ textarea:hover{
 }
 
 .form-control-container {
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: space-evenly;
 
