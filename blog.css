@@ -110,12 +110,15 @@ nav {
 }
 
 .top-left {
-    margin-left: 50px;
+    /* margin-left: 50px;
     margin-top: 0;
     padding-top: 50px;
-    text-shadow: 2px 2px 8px white;
+    text-shadow: 2px 2px 8px white; */
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgb(241, 239, 239) ;
     font-size: 40px;
-    color: black;
+    color: goldenrod;
 
     /* border: 2px solid white; */
 }
@@ -124,16 +127,26 @@ nav {
 }
 
 .blog-story-content {
-    margin-left: 50px;
-    border: solid black 0.5px;
+    display: flex;
+    flex-direction: column;
+  
+    justify-items: center;
+    /* border: solid black 0.5px; */
     background-color: rgb(241, 239, 239);
     /* margin-left: 10px; */
     /* position: absolute; */
 }
-
+.blog-story-content > h2 {
+   text-align: center;
+   margin-top: 0;
+}
+.blog-story-content span{
+    text-align: center;
+}
 .blog-content-paragraph {
-    margin-right: 30px;
-    padding: 50px, 0, 50px, 0;
+    margin-right: 0 50px;
+    padding: 0 50px;
+
 }
 
 .blog-story-content hr {
@@ -152,6 +165,7 @@ nav {
 .blog-post-video {
     height: 300px;
     display: flex;
+    /* width: 100%; */
     /* align-items: center; */
     justify-content: space-evenly;
     /* border: 2px solid darkblue; */
@@ -172,17 +186,18 @@ nav {
 }
 
 .click-prev-next button {
-    padding: 5px 10px;
+    /* padding: 5px 3px; */
     width: 100px;
     margin: 0 5px;
     border: none;
-    background-color: rgb(247, 238, 216);
+    color: white;
+    background-color: black;
 }
 
 .next:hover,
 .prev:hover {
-    background-color: black;
-    color: white;
+    /* background-color: black;
+    color: white; */
 }
 
 
@@ -198,8 +213,8 @@ nav {
 textarea {
 
     padding: 30px 0;
-    width: 80%;
-    height: 100px;
+    width: 50%;
+    height: 20px;
     border: none;
     border-radius: 10px;
     border: black 1px solid
@@ -221,9 +236,9 @@ textarea:hover{
 }
 
 .form-control-container {
-    display: block;
+    display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 
 
     /* border: 2px solid purple; */
@@ -231,7 +246,7 @@ textarea:hover{
 .name-email input{
     border-radius: 5px;
     border: 0;
-    padding: 5px;
+    padding: 3px;
     border: black 1px solid
     
 }
